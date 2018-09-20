@@ -1,0 +1,50 @@
+{
+  "name": "nuxt-netlify-wiki",
+  "version": "1.0.0",
+  "description": "Nuxt Netlify Wiki",
+  "author": "Sam Goddard <hello@samgoddard.co.uk>",
+  "private": false,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^4.5.0",
+    "markdown-it": "^8.4.0",
+    "netlify-cms": "^1.0.2",
+    "nuxt": "^1.0.0-gh-b31b0f2",
+    "nuxtent": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^4.0.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "node-sass": "^4.7.2",
+    "normalize.css": "^7.0.0",
+    "nuxt-netlify-cms": "^2.0.1",
+    "nuxt-sass-resources-loader": "^1.1.0",
+    "prettier": "^1.9.1",
+    "sass-loader": "^6.0.6",
+    "url-loader": "^0.6.2",
+    "vue-style-loader": "^3.0.3"
+  }
+}
